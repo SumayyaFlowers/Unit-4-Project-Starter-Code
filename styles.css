@@ -1,0 +1,55 @@
+img {
+    width: 200px;   
+}
+body {
+    background-color:#720026;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.profile{
+    border-radius: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    border: #720026 2px solid;
+    margin: 6px;
+}
+.profilebox{
+    background: white;
+    border: #4f000b 10px solid;
+    color: #720026;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.statistics{
+    border: white 10px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #720026;
+    font-size: 18px;
+}
+.bio{
+    border: white;
+    font-size: 20px;
+    color: black;
+}
+.navigation{
+    display: flex;
+    border: black 2px solid;
+    padding: 10px;
+    background-color: white;
+    height: 50px;
+    justify-content: center;
+}
+.logo{
+    width: 50px;
+}
+.srchbar{
+    background: #f8c0c8;
+    border: 1px solid white;
+    color: transparent;
+}
